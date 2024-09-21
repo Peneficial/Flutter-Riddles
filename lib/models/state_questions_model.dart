@@ -42,7 +42,7 @@ class StateOption {
 final stateQuestionsList = [
   StateQuestion(
     text:
-        "I am a simple method to manage state within a StatefulWidget. What am I?",
+        "I am a biology",
     options: [
       const StateOption(text: "MobX", isCorrect: false),
       const StateOption(text: "Bloc", isCorrect: false),
@@ -54,7 +54,7 @@ final stateQuestionsList = [
   ),
   StateQuestion(
     text:
-        "I am a Flutter package that enables reactive programming and observable state objects. ",
+        "I am a biology ",
     options: [
       const StateOption(text: "Riverpod", isCorrect: false),
       const StateOption(text: "Mobx", isCorrect: true),
@@ -66,7 +66,7 @@ final stateQuestionsList = [
   ),
   StateQuestion(
     text:
-        "What is the name of the Flutter state management approach that uses a widget tree to hold the app state and update the UI, and is similar to Provider?",
+        "I am a biology",
     options: [
       const StateOption(text: "Riverpod", isCorrect: true),
       const StateOption(text: "Bloc", isCorrect: false),
@@ -79,7 +79,7 @@ final stateQuestionsList = [
 
   StateQuestion(
     text:
-        "I am a lightweight and powerful solution for Flutter, combining state management and dependency injection. What am I?",
+        "I am a biology",
     options: [
       const StateOption(text: "Getx", isCorrect: true),
       const StateOption(text: "Riverpod", isCorrect: false),
@@ -92,7 +92,7 @@ final stateQuestionsList = [
   // other 4
   StateQuestion(
     text:
-        "I am a feature of ****** that allows developers to navigate between routes without using context. What am I?",
+        "I am a biology",
     options: [
       const StateOption(text: "Mobx", isCorrect: false),
       const StateOption(text: "InheritedWidgets", isCorrect: false),
@@ -103,7 +103,7 @@ final stateQuestionsList = [
     correctAnswer: const StateOption(text: "Getx", isCorrect: true),
   ),
   StateQuestion(
-    text: "I use streams and sinks for state management, who am I?",
+    text: "I am a biology",
     options: [
       const StateOption(text: "Bloc", isCorrect: true),
       const StateOption(text: "GetX", isCorrect: false),
@@ -115,7 +115,7 @@ final stateQuestionsList = [
   ),
 
   StateQuestion(
-    text: "I allow using React-like hooks in Flutter, who am I?",
+    text: "I am a biology",
     options: [
       const StateOption(text: "GetX", isCorrect: false),
       const StateOption(text: "Redux", isCorrect: false),

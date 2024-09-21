@@ -51,4 +51,11 @@ final List<FlutterTopics> flutterTopicsList = [
     topicName: "Layouts and UI",
     topicQuestions: layOutQuestionsList,
   ),
+  FlutterTopics(
+    id: 4,
+    topicColor: cardColor,
+    topicIcon: CupertinoIcons.rectangle_arrow_up_right_arrow_down_left,
+    topicName: "bio",
+    topicQuestions: layOutQuestionsList,
+  ),
 ];
