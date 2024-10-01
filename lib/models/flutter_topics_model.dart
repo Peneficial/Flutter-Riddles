@@ -2,6 +2,8 @@ import 'package:flashcards_quiz/models/layout_questions_model.dart';
 import 'package:flashcards_quiz/models/naviagation_questions_model.dart';
 import 'package:flashcards_quiz/models/widget_questions_model.dart';
 import 'package:flashcards_quiz/models/state_questions_model.dart';
+import 'package:flashcards_quiz/models/bio_questions_model.dart';
+import 'package:flashcards_quiz/models/bio2_questions_model.dart';
 import 'package:flutter/cupertino.dart';
 
 const Color cardColor = Color(0xFF4993FA);
@@ -56,6 +58,13 @@ final List<FlutterTopics> flutterTopicsList = [
     topicColor: cardColor,
     topicIcon: CupertinoIcons.rectangle_arrow_up_right_arrow_down_left,
     topicName: "bio",
-    topicQuestions: layOutQuestionsList,
+    topicQuestions: bioQuestionsList,
+  ),
+  FlutterTopics(
+    id: 4,
+    topicColor: cardColor,
+    topicIcon: CupertinoIcons.rectangle_arrow_up_right_arrow_down_left,
+    topicName: "bio2",
+    topicQuestions: bio2QuestionsList,
   ),
 ];
