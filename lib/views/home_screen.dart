@@ -91,11 +91,6 @@ class HomePage extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            Icon(
-                              topicsData.topicIcon,
-                              color: Colors.white,
-                              size: 55,
-                            ),
                             const SizedBox(
                               height: 15,
                             ),
