@@ -26,7 +26,7 @@ final List<FlutterTopics> flutterTopicsList = [
   FlutterTopics(
     id: 0,
     topicColor: cardColor,
-    topicName: "Marine Biology",
+    topicName: "Marine Biology🐟",
     topicQuestions: widgetQuestionsList,
   ),
   FlutterTopics(
