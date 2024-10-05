@@ -43,186 +43,186 @@ class WiidgetOption {
 final widgetQuestionsList = [
   WidgetQuestion(
     text:
-        "I am a Flutter widget that provides a scrollable list of children. What am I?",
+        "What percentage of the Earth's surface is water?",
     options: [
-      const WiidgetOption(text: "ListView", isCorrect: true),
-      const WiidgetOption(text: "Column", isCorrect: false),
-      const WiidgetOption(text: "Row", isCorrect: false),
-      const WiidgetOption(text: "Wrap", isCorrect: false),
+      const WiidgetOption(text: "71%", isCorrect: true),
+      const WiidgetOption(text: "50%", isCorrect: false),
+      const WiidgetOption(text: "90%", isCorrect: false),
+      const WiidgetOption(text: "99%", isCorrect: false),
     ],
     id: 0,
-    correctAnswer: const WiidgetOption(text: "ListView", isCorrect: true),
+    correctAnswer: const WiidgetOption(text: "71%", isCorrect: true),
   ),
   WidgetQuestion(
       text:
-          "I am a widget used to display a single piece of content and expand to fill the available space. What am I?",
+          "Which of the following is a transition from river to sea?",
       options: [
-        const WiidgetOption(text: "Flexible", isCorrect: false),
-        const WiidgetOption(text: "Expanded", isCorrect: true),
-        const WiidgetOption(text: "Container", isCorrect: false),
-        const WiidgetOption(text: "SizedBox", isCorrect: false),
+        const WiidgetOption(text: "Tributary", isCorrect: false),
+        const WiidgetOption(text: "Estuary", isCorrect: true),
+        const WiidgetOption(text: "Stream", isCorrect: false),
+        const WiidgetOption(text: "Hydrothermal vent", isCorrect: false),
       ],
       id: 1,
-      correctAnswer: const WiidgetOption(text: "Expanded", isCorrect: true)),
+      correctAnswer: const WiidgetOption(text: "Estuary", isCorrect: true)),
   WidgetQuestion(
       text:
-          "I am a circular or elliptical shape with a specific radius. What am I?",
+          "How many species of fish have been discovered?",
       options: [
-        const WiidgetOption(text: "ClipRRect", isCorrect: false),
-        const WiidgetOption(text: "DecoratedBox", isCorrect: false),
-        const WiidgetOption(text: "ClipOval", isCorrect: false),
-        const WiidgetOption(text: "CircleAvatar", isCorrect: true),
+        const WiidgetOption(text: "More than 200,000", isCorrect: false),
+        const WiidgetOption(text: "About 9,000", isCorrect: false),
+        const WiidgetOption(text: "About 150,200", isCorrect: false),
+        const WiidgetOption(text: "About 34,800", isCorrect: true),
       ],
       id: 2,
       correctAnswer:
-          const WiidgetOption(text: "CircleAvatar", isCorrect: true)),
+          const WiidgetOption(text: "About 34,800", isCorrect: true)),
   WidgetQuestion(
       text:
-          "I am a widget that creates a button with an icon and a label. What am I?",
+          "How loud can a sperm whale click get?",
       options: [
-        const WiidgetOption(text: "Elevated Button", isCorrect: false),
-        const WiidgetOption(text: "TextButton", isCorrect: false),
-        const WiidgetOption(text: "IconButton", isCorrect: true),
-        const WiidgetOption(text: "TextButton.icon", isCorrect: false),
+        const WiidgetOption(text: "100dB", isCorrect: false),
+        const WiidgetOption(text: "50dB", isCorrect: false),
+        const WiidgetOption(text: "230dB", isCorrect: true),
+        const WiidgetOption(text: "100,000dB", isCorrect: false),
       ],
       id: 3,
-      correctAnswer: const WiidgetOption(text: "IconButton", isCorrect: true)),
+      correctAnswer: const WiidgetOption(text: "230dB", isCorrect: true)),
   WidgetQuestion(
       text:
-          " I am a widget that provides a responsive grid of tiles with multiple children. What am I?",
+          "What is the only species where biological males give birth?",
       options: [
-        const WiidgetOption(text: "ListTile", isCorrect: false),
-        const WiidgetOption(text: "singleChildScrollView", isCorrect: false),
-        const WiidgetOption(text: "ListView", isCorrect: false),
-        const WiidgetOption(text: "GridView", isCorrect: true),
+        const WiidgetOption(text: "Anglerfish", isCorrect: false),
+        const WiidgetOption(text: "Asian Elephant", isCorrect: false),
+        const WiidgetOption(text: "Nurse sharks", isCorrect: false),
+        const WiidgetOption(text: "Seahorses", isCorrect: true),
       ],
       id: 4,
-      correctAnswer: const WiidgetOption(text: "GridView", isCorrect: true)),
+      correctAnswer: const WiidgetOption(text: "Seahorses", isCorrect: true)),
   WidgetQuestion(
       text:
-          "I am a widget that creates a collapsible tile with an optional leading and trailing widget. What am I?",
+          "What is the largest known species of jellyfish?",
       options: [
-        const WiidgetOption(text: "ExpansionTile", isCorrect: true),
-        const WiidgetOption(text: "DropdownButton", isCorrect: false),
-        const WiidgetOption(text: "Card", isCorrect: false),
-        const WiidgetOption(text: "AppBar", isCorrect: false),
+        const WiidgetOption(text: "Lion's mane jellyfish", isCorrect: true),
+        const WiidgetOption(text: "Sea anemone", isCorrect: false),
+        const WiidgetOption(text: "Box jellyfish", isCorrect: false),
+        const WiidgetOption(text: "Brazilian jellyfish", isCorrect: false),
       ],
       id: 5,
       correctAnswer:
-          const WiidgetOption(text: "ExpansionTile", isCorrect: true)),
+          const WiidgetOption(text: "Lion's mane jellyfish", isCorrect: true)),
   WidgetQuestion(
       text:
-          " I am a widget that provides a rectangular box with a specified width, height, and color. What am I?",
+          "What percentage of the water on Earth is saltwater?",
       options: [
-        const WiidgetOption(text: "Container", isCorrect: true),
-        const WiidgetOption(text: "Card", isCorrect: false),
-        const WiidgetOption(text: "SizedBox", isCorrect: false),
-        const WiidgetOption(text: "Padding", isCorrect: false),
+        const WiidgetOption(text: "97.5%", isCorrect: true),
+        const WiidgetOption(text: "90%", isCorrect: false),
+        const WiidgetOption(text: "99.9%", isCorrect: false),
+        const WiidgetOption(text: "95%", isCorrect: false),
       ],
       id: 6,
-      correctAnswer: const WiidgetOption(text: "Container", isCorrect: true)),
+      correctAnswer: const WiidgetOption(text: "97.5%", isCorrect: true)),
   WidgetQuestion(
       text:
-          "I am a widget that displays an image from the specified network URL. What am I?",
+          "What percentage of the entire marine biomass is made up of microoragnisms?",
       options: [
-        const WiidgetOption(text: "Image.network", isCorrect: true),
-        const WiidgetOption(text: "AssetImage", isCorrect: false),
-        const WiidgetOption(text: "Image.asset", isCorrect: false),
-        const WiidgetOption(text: "Image.file", isCorrect: false),
+        const WiidgetOption(text: "70%", isCorrect: true),
+        const WiidgetOption(text: "0%", isCorrect: false),
+        const WiidgetOption(text: "90%", isCorrect: false),
+        const WiidgetOption(text: "50%", isCorrect: false),
       ],
       id: 7,
       correctAnswer:
-          const WiidgetOption(text: "Image.network", isCorrect: true)),
+          const WiidgetOption(text: "70%", isCorrect: true)),
   WidgetQuestion(
       text:
-          "I give Material apps their signature reactive ink splash effect. Who am I?",
+          "What is the largest coral reef in the world?",
       options: [
-        const WiidgetOption(text: "InkWell", isCorrect: true),
-        const WiidgetOption(text: "GestureDetector", isCorrect: false),
-        const WiidgetOption(text: "AbsorbPointer", isCorrect: false),
-        const WiidgetOption(text: "IgnorePointer", isCorrect: false),
+        const WiidgetOption(text: "Great Barrier Reef", isCorrect: true),
+        const WiidgetOption(text: "Australian Reef", isCorrect: false),
+        const WiidgetOption(text: "Gobi Desert", isCorrect: false),
+        const WiidgetOption(text: "Miami Terrace", isCorrect: false),
       ],
       id: 8,
-      correctAnswer: const WiidgetOption(text: "InkWell", isCorrect: true)),
+      correctAnswer: const WiidgetOption(text: "Great Barrier Reef", isCorrect: true)),
   WidgetQuestion(
       text:
-          "I am a widget that provides a material design styled line divider. What am I?",
+          "Which of the following is not a category of fish?",
       options: [
-        const WiidgetOption(text: "Divider", isCorrect: true),
-        const WiidgetOption(text: "SizedBox", isCorrect: false),
-        const WiidgetOption(text: "Container", isCorrect: false),
-        const WiidgetOption(text: "ListTile", isCorrect: false),
+        const WiidgetOption(text: "Gill-less fish", isCorrect: true),
+        const WiidgetOption(text: "Jawless fish", isCorrect: false),
+        const WiidgetOption(text: "Cartilaginous fish", isCorrect: false),
+        const WiidgetOption(text: "Bony Fish", isCorrect: false),
       ],
       id: 9,
-      correctAnswer: const WiidgetOption(text: "Divider", isCorrect: true)),
+      correctAnswer: const WiidgetOption(text: "Gill-less fish", isCorrect: true)),
   WidgetQuestion(
       text:
-          "I am a widget that displays a circular material design spinner to indicate loading. What am I?",
+          "Which of these is a real fish?",
       options: [
-        const WiidgetOption(text: "LinearProgressIndicator", isCorrect: false),
-        const WiidgetOption(text: "RefreshIndicator", isCorrect: false),
-        const WiidgetOption(text: "CircularProgressIndicator", isCorrect: true),
-        const WiidgetOption(text: "LoadingIndicator", isCorrect: false),
+        const WiidgetOption(text: "Seahorse", isCorrect: false),
+        const WiidgetOption(text: "Great brown shark", isCorrect: false),
+        const WiidgetOption(text: "Elephantnose fish", isCorrect: true),
+        const WiidgetOption(text: "American bisonfish", isCorrect: false),
       ],
       id: 10,
       correctAnswer: const WiidgetOption(
-          text: "CircularProgressIndicator", isCorrect: true)),
+          text: "Elephantnose fish", isCorrect: true)),
   WidgetQuestion(
       text:
-          "I am a widget that displays a material design styled tooltip when the user hovers over it. What am I?",
+          "Who was the first marine biologist?",
       options: [
-        const WiidgetOption(text: "Popover", isCorrect: false),
-        const WiidgetOption(text: "Tooltip", isCorrect: true),
-        const WiidgetOption(text: "Snackbar", isCorrect: false),
-        const WiidgetOption(text: "HintText", isCorrect: false),
+        const WiidgetOption(text: "Laplace", isCorrect: false),
+        const WiidgetOption(text: "Aristotle", isCorrect: true),
+        const WiidgetOption(text: "Euclid", isCorrect: false),
+        const WiidgetOption(text: "Gauss", isCorrect: false),
       ],
       id: 11,
-      correctAnswer: const WiidgetOption(text: "Tooltip", isCorrect: true)),
+      correctAnswer: const WiidgetOption(text: "Aristotle", isCorrect: true)),
   WidgetQuestion(
       text:
-          "I am the folder containing assets like images, fonts, json files etc. What am I?",
+          "How much has sea level rose, on average, per year, since 1970?",
       options: [
-        const WiidgetOption(text: "static", isCorrect: false),
-        const WiidgetOption(text: "assets", isCorrect: true),
-        const WiidgetOption(text: "resources", isCorrect: false),
-        const WiidgetOption(text: "images", isCorrect: false),
+        const WiidgetOption(text: "5cm", isCorrect: false),
+        const WiidgetOption(text: "2.3mm", isCorrect: true),
+        const WiidgetOption(text: "1cm", isCorrect: false),
+        const WiidgetOption(text: "1.5mm", isCorrect: false),
       ],
       id: 12,
-      correctAnswer: const WiidgetOption(text: "assets", isCorrect: true)),
+      correctAnswer: const WiidgetOption(text: "2.3mm", isCorrect: true)),
   WidgetQuestion(
       text:
-          "I am the programming language used to build Flutter apps. What am I?",
+          "What is the phenomenon where there is higher diversity of fish in freshwater called?",
       options: [
-        const WiidgetOption(text: "Dart", isCorrect: true),
-        const WiidgetOption(text: "Java", isCorrect: false),
-        const WiidgetOption(text: "Swift", isCorrect: false),
-        const WiidgetOption(text: "Kotlin", isCorrect: false),
+        const WiidgetOption(text: "Freshwater fish paradox", isCorrect: true),
+        const WiidgetOption(text: "Saltwater fish paradox", isCorrect: false),
+        const WiidgetOption(text: "Freshwater fish conundrum", isCorrect: false),
+        const WiidgetOption(text: "Clearwater paradox", isCorrect: false),
       ],
       id: 13,
-      correctAnswer: const WiidgetOption(text: "Dart", isCorrect: true)),
+      correctAnswer: const WiidgetOption(text: "Freshwater fish paradox", isCorrect: true)),
   WidgetQuestion(
     text:
-        "I am a mechanism that allows you to incorporate platform-specific UI elements into a Flutter app. What am I?",
+        "Which of the following have no hemoglobin as adult fish?",
     options: [
-      const WiidgetOption(text: "Native view", isCorrect: false),
-      const WiidgetOption(text: "Platform channels", isCorrect: true),
-      const WiidgetOption(text: "JNI", isCorrect: false),
-      const WiidgetOption(text: "Bridge", isCorrect: false),
+      const WiidgetOption(text: "Chordata", isCorrect: false),
+      const WiidgetOption(text: "Channichthyidae", isCorrect: true),
+      const WiidgetOption(text: "Animalia", isCorrect: false),
+      const WiidgetOption(text: "Homo sapiens", isCorrect: false),
     ],
     id: 14,
     correctAnswer:
-        const WiidgetOption(text: "Platform channels", isCorrect: true),
+        const WiidgetOption(text: "Channichthyidae", isCorrect: true),
   ),
   WidgetQuestion(
     text:
-        "I am a property that uniquely identifies a widget and allows it to be updated efficiently. What am I?",
+        "How many heart(s) does an octopus have?",
     options: [
-      const WiidgetOption(text: "key", isCorrect: true),
-      const WiidgetOption(text: "id", isCorrect: false),
-      const WiidgetOption(text: "name", isCorrect: false),
-      const WiidgetOption(text: "tag", isCorrect: false),
+      const WiidgetOption(text: "3", isCorrect: true),
+      const WiidgetOption(text: "1", isCorrect: false),
+      const WiidgetOption(text: "0", isCorrect: false),
+      const WiidgetOption(text: "2", isCorrect: false),
     ],
     id: 15,
-    correctAnswer: const WiidgetOption(text: "key", isCorrect: true),
+    correctAnswer: const WiidgetOption(text: "3", isCorrect: true),
   ),
 ];

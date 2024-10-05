@@ -45,12 +45,12 @@ class ResultsCard extends StatelessWidget {
                                 style: Theme.of(context)
                                     .textTheme
                                     .bodyMedium!
-                                    .copyWith(fontSize: 12 + ii.toDouble()),
+                                    .copyWith(fontSize: 12),
                               ),
                             ],
                             //m'adamfo(Twi) - my friend
                             TextSpan(
-                              text: "  m'adamfo\n You Scored  \n",
+                              text: "  \n You Scored  \n",
                               style: Theme.of(context).textTheme.bodySmall,
                             ),
                             TextSpan(
@@ -97,7 +97,7 @@ class ResultsCard extends StatelessWidget {
                             : Column(
                                 children: [
                                   Text(
-                                    "I know You can do better!!",
+                                    "Better luck or skills next time!",
                                     style: Theme.of(context)
                                         .textTheme
                                         .bodyLarge!

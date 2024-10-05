@@ -63,7 +63,7 @@ class ResultsScreen extends StatelessWidget {
                         text: "Riddles!!!"[i],
                         style:
                             Theme.of(context).textTheme.headlineSmall!.copyWith(
-                                  fontSize: 18 + i.toDouble(),
+                                  fontSize: 18,
                                   color: Colors.white,
                                   fontWeight: FontWeight.w400,
                                 ),
