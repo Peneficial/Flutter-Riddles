@@ -89,8 +89,8 @@ class _QuizScreenState extends State<QuizScreen> {
 
   @override
   Widget build(BuildContext context) {
-    const Color bgColor3 = Color(0xFF5170FD);
-    const Color bgColor = Color(0xFF4993FA);
+    const Color bgColor3 = Color.fromARGB(255, 74, 230, 43);
+    const Color bgColor = Color.fromARGB(255, 63, 196, 51);
 
     return WillPopScope(
       onWillPop: () {
@@ -141,8 +141,8 @@ class _QuizScreenState extends State<QuizScreen> {
                           child: LinearProgressIndicator(
                             minHeight: 20,
                             value: 1 - (questionTimerSeconds / 20),
-                            backgroundColor: Colors.blue.shade100,
-                            color: Colors.blueGrey,
+                            backgroundColor: const Color.fromARGB(255, 5, 155, 55),
+                            color: const Color.fromARGB(255, 160, 240, 144),
                             valueColor: const AlwaysStoppedAnimation(bgColor),
                           ),
                         ),
@@ -325,11 +325,11 @@ class _QuizScreenState extends State<QuizScreen> {
 
   ElevatedButton buildElevatedButton() {
     //  const Color bgColor3 = Color(0xFF5170FD);
-    const Color cardColor = Color(0xFF4993FA);
+    const Color cardColor = Color.fromARGB(255, 141, 241, 115);
 
     return ElevatedButton(
       style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.all(cardColor),
+        backgroundColor: MaterialStateProperty.all(const Color.fromARGB(255, 117, 247, 123)),
         fixedSize: MaterialStateProperty.all(
           Size(MediaQuery.sizeOf(context).width * 0.80, 40),
         ),

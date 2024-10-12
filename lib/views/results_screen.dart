@@ -13,12 +13,12 @@ class ResultsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const Color bgColor3 = Color(0xFF5170FD);
+    const Color bgColor3 = Color.fromARGB(255, 120, 241, 126);
     print(score);
     print(totalQuestions);
     final double percentageScore = (score / totalQuestions) * 100;
     final int roundedPercentageScore = percentageScore.round();
-    const Color cardColor = Color(0xFF4993FA);
+    const Color cardColor = Color.fromARGB(255, 141, 235, 137);
     return WillPopScope(
       onWillPop: () {
         Navigator.popUntil(context, (route) => route.isFirst);

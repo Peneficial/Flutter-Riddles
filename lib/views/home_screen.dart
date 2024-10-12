@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const Color bgColor = Color.fromARGB(255, 104, 231, 142);
-    const Color bgColor3 = Color(0xFF5170FD);
+    const Color bgColor3 = Color.fromARGB(255, 59, 202, 40);
     return Scaffold(
       backgroundColor: bgColor3,
       body: SafeArea(

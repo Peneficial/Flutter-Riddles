@@ -6,7 +6,7 @@ import 'package:flashcards_quiz/models/molecular_questions_model.dart';
 import 'package:flashcards_quiz/models/neuro_questions_model.dart';
 import 'package:flutter/cupertino.dart';
 
-const Color cardColor = Color(0xFF4993FA);
+const Color cardColor = Color.fromARGB(255, 7, 180, 30);
 
 class FlutterTopics {
   final int id;

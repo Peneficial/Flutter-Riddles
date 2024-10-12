@@ -60,15 +60,15 @@ class _MyProgressIndicatorState extends State<MyProgressIndicator> {
 
   @override
   Widget build(BuildContext context) {
-    const Color bgColor = Color(0xFF4993FA);
+    const Color bgColor = Color.fromARGB(255, 127, 238, 117);
     return Expanded(
       child: ClipRRect(
         borderRadius: BorderRadius.circular(12),
         child: LinearProgressIndicator(
           minHeight: 20,
           value: 1 - (timerSeconds / 45),
-          backgroundColor: Colors.blue.shade100,
-          color: Colors.blueGrey,
+          backgroundColor: const Color.fromARGB(255, 195, 241, 194),
+          color: const Color.fromARGB(255, 141, 248, 138),
           valueColor: const AlwaysStoppedAnimation(bgColor),
         ),
       ),
