@@ -46,104 +46,194 @@ class LayOutOption {
 
 final layOutQuestionsList = [
   LayOutQuestion(
-    text: "I control how widgets are placed vertically in a column. Who am I?",
+    text: "I am responsible for generating energy in the cell. Who am I?",
     options: [
-      const LayOutOption(text: "MainAxisAlignment", isCorrect: true),
-      const LayOutOption(text: "Row", isCorrect: false),
-      const LayOutOption(text: "CrossAxisAlignment", isCorrect: false),
-      const LayOutOption(text: "mainAxisSize", isCorrect: false),
+      const LayOutOption(text: "Mitochondria", isCorrect: true),
+      const LayOutOption(text: "Nucleus", isCorrect: false),
+      const LayOutOption(text: "Ribosome", isCorrect: false),
+      const LayOutOption(text: "Endoplasmic Reticulum", isCorrect: false),
     ],
     id: 0,
-    correctAnswer:
-        const LayOutOption(text: "MainAxisAlignment", isCorrect: true),
+    correctAnswer: const LayOutOption(text: "Mitochondria", isCorrect: true),
   ),
+
   LayOutQuestion(
-    text:
-        "I allow widgets to expand and contract based on available space. You'll always find me inside a Flex. Who am I?",
+    text: "I control the movement of substances in and out of the cell. Who am I?",
     options: [
-      const LayOutOption(text: "Flexible ", isCorrect: true),
-      const LayOutOption(text: "Expanded", isCorrect: false),
-      const LayOutOption(text: "Flex", isCorrect: false),
-      const LayOutOption(text: "mainAxisSpacing", isCorrect: false),
+      const LayOutOption(text: "Cell Membrane", isCorrect: true),
+      const LayOutOption(text: "Nucleus", isCorrect: false),
+      const LayOutOption(text: "Vacuole", isCorrect: false),
+      const LayOutOption(text: "Chloroplast", isCorrect: false),
     ],
     id: 1,
-    correctAnswer: const LayOutOption(text: "Flexible", isCorrect: true),
+    correctAnswer: const LayOutOption(text: "Cell Membrane", isCorrect: true),
   ),
 
   LayOutQuestion(
-    text:
-        "I create an invisible bounding box that controls my child's width and height. What am I?",
+    text: "I am the control center of the cell, containing its genetic material. Who am I?",
     options: [
-      const LayOutOption(text: "Container ", isCorrect: true),
-      const LayOutOption(text: "SizedBox", isCorrect: false),
-      const LayOutOption(text: "Card", isCorrect: false),
-      const LayOutOption(text: "Row", isCorrect: false),
+      const LayOutOption(text: "Nucleus", isCorrect: true),
+      const LayOutOption(text: "Ribosome", isCorrect: false),
+      const LayOutOption(text: "Mitochondria", isCorrect: false),
+      const LayOutOption(text: "Golgi Apparatus", isCorrect: false),
     ],
     id: 2,
-    correctAnswer: const LayOutOption(text: "Container", isCorrect: true),
+    correctAnswer: const LayOutOption(text: "Nucleus", isCorrect: true),
   ),
 
   LayOutQuestion(
-    text:
-        "I align my children widgets to the start or end of the row. Who am I?",
+    text: "I am responsible for photosynthesis in plant cells. Who am I?",
     options: [
-      const LayOutOption(text: "SingleChildScrollView", isCorrect: false),
-      const LayOutOption(text: "crossAxisCount", isCorrect: false),
-      const LayOutOption(text: "MainAxisAlignment ", isCorrect: true),
-      const LayOutOption(text: "crossAxisSpacing", isCorrect: false),
+      const LayOutOption(text: "Chloroplast", isCorrect: true),
+      const LayOutOption(text: "Vacuole", isCorrect: false),
+      const LayOutOption(text: "Cell Wall", isCorrect: false),
+      const LayOutOption(text: "Mitochondria", isCorrect: false),
     ],
     id: 3,
-    correctAnswer:
-        const LayOutOption(text: "MainAxisAlignment ", isCorrect: true),
-  ),
-  // other 4
-  LayOutQuestion(
-    text:
-        "I'm a widget that lets you precisely position children using x, y coordinates. Who am I?",
-    options: [
-      const LayOutOption(text: "Align", isCorrect: false),
-      const LayOutOption(text: "FittedBox", isCorrect: false),
-      const LayOutOption(text: "Postioned", isCorrect: false),
-      const LayOutOption(text: "Stack ", isCorrect: true),
-    ],
-    id: 4,
-    correctAnswer: const LayOutOption(text: "Stack ", isCorrect: true),
-  ),
-  LayOutQuestion(
-    text: "I'm a horizontal version of Column. Who am I?",
-    options: [
-      const LayOutOption(text: "Row ", isCorrect: true),
-      const LayOutOption(text: "Divider", isCorrect: false),
-      const LayOutOption(text: "Column", isCorrect: false),
-      const LayOutOption(text: "Stack", isCorrect: false),
-    ],
-    id: 5,
-    correctAnswer: const LayOutOption(text: "Row", isCorrect: true),
+    correctAnswer: const LayOutOption(text: "Chloroplast", isCorrect: true),
   ),
 
   LayOutQuestion(
-    text:
-        "I align widgets to the top, bottom, center inside a Column. What am I?",
+    text: "I am responsible for synthesizing proteins in the cell. Who am I?",
     options: [
-      const LayOutOption(text: "Row", isCorrect: false),
-      const LayOutOption(text: "Align", isCorrect: false),
-      const LayOutOption(text: "Spacer", isCorrect: false),
-      const LayOutOption(text: "MainAxisAlignment ", isCorrect: true),
+      const LayOutOption(text: "Ribosome", isCorrect: true),
+      const LayOutOption(text: "Golgi Apparatus", isCorrect: false),
+      const LayOutOption(text: "Endoplasmic Reticulum", isCorrect: false),
+      const LayOutOption(text: "Lysosome", isCorrect: false),
+    ],
+    id: 4,
+    correctAnswer: const LayOutOption(text: "Ribosome", isCorrect: true),
+  ),
+
+  LayOutQuestion(
+    text: "I modify, sort, and package proteins in the cell. Who am I?",
+    options: [
+      const LayOutOption(text: "Golgi Apparatus", isCorrect: true),
+      const LayOutOption(text: "Endoplasmic Reticulum", isCorrect: false),
+      const LayOutOption(text: "Lysosome", isCorrect: false),
+      const LayOutOption(text: "Nucleus", isCorrect: false),
+    ],
+    id: 5,
+    correctAnswer: const LayOutOption(text: "Golgi Apparatus", isCorrect: true),
+  ),
+
+  LayOutQuestion(
+    text: "I am a large, membrane-bound organelle that stores nutrients and waste products in plant cells. Who am I?",
+    options: [
+      const LayOutOption(text: "Vacuole", isCorrect: true),
+      const LayOutOption(text: "Mitochondria", isCorrect: false),
+      const LayOutOption(text: "Chloroplast", isCorrect: false),
+      const LayOutOption(text: "Ribosome", isCorrect: false),
     ],
     id: 6,
-    correctAnswer:
-        const LayOutOption(text: "MainAxisAlignment ", isCorrect: true),
+    correctAnswer: const LayOutOption(text: "Vacuole", isCorrect: true),
   ),
+
   LayOutQuestion(
-    text:
-        "I align my Row or Column children differently based on available space. Who am I?",
+    text: "I am an organelle that helps detoxify harmful substances in the cell. Who am I?",
     options: [
-      const LayOutOption(text: "Expanded", isCorrect: false),
-      const LayOutOption(text: "Flex ", isCorrect: true),
-      const LayOutOption(text: "FittedBox", isCorrect: false),
-      const LayOutOption(text: "Wrap", isCorrect: false),
+      const LayOutOption(text: "Smooth Endoplasmic Reticulum", isCorrect: true),
+      const LayOutOption(text: "Rough Endoplasmic Reticulum", isCorrect: false),
+      const LayOutOption(text: "Lysosome", isCorrect: false),
+      const LayOutOption(text: "Chloroplast", isCorrect: false),
     ],
     id: 7,
-    correctAnswer: const LayOutOption(text: "Scoped Model", isCorrect: true),
+    correctAnswer: const LayOutOption(text: "Smooth Endoplasmic Reticulum", isCorrect: true),
+  ),
+
+  LayOutQuestion(
+    text: "I am responsible for cell division in animal cells. Who am I?",
+    options: [
+      const LayOutOption(text: "Centrosome", isCorrect: true),
+      const LayOutOption(text: "Mitochondria", isCorrect: false),
+      const LayOutOption(text: "Nucleus", isCorrect: false),
+      const LayOutOption(text: "Lysosome", isCorrect: false),
+    ],
+    id: 8,
+    correctAnswer: const LayOutOption(text: "Centrosome", isCorrect: true),
+  ),
+
+  LayOutQuestion(
+    text: "I am an organelle that breaks down waste materials and cellular debris. Who am I?",
+    options: [
+      const LayOutOption(text: "Lysosome", isCorrect: true),
+      const LayOutOption(text: "Vacuole", isCorrect: false),
+      const LayOutOption(text: "Endoplasmic Reticulum", isCorrect: false),
+      const LayOutOption(text: "Chloroplast", isCorrect: false),
+    ],
+    id: 9,
+    correctAnswer: const LayOutOption(text: "Lysosome", isCorrect: true),
+  ),
+
+  LayOutQuestion(
+    text: "I provide structural support to plant cells. Who am I?",
+    options: [
+      const LayOutOption(text: "Cell Wall", isCorrect: true),
+      const LayOutOption(text: "Vacuole", isCorrect: false),
+      const LayOutOption(text: "Nucleus", isCorrect: false),
+      const LayOutOption(text: "Chloroplast", isCorrect: false),
+    ],
+    id: 10,
+    correctAnswer: const LayOutOption(text: "Cell Wall", isCorrect: true),
+  ),
+
+  LayOutQuestion(
+    text: "I am a jelly-like substance that fills the cell and holds organelles in place. Who am I?",
+    options: [
+      const LayOutOption(text: "Cytoplasm", isCorrect: true),
+      const LayOutOption(text: "Nucleus", isCorrect: false),
+      const LayOutOption(text: "Mitochondria", isCorrect: false),
+      const LayOutOption(text: "Ribosome", isCorrect: false),
+    ],
+    id: 11,
+    correctAnswer: const LayOutOption(text: "Cytoplasm", isCorrect: true),
+  ),
+
+  LayOutQuestion(
+    text: "I am the site of cellular respiration in animal and plant cells. Who am I?",
+    options: [
+      const LayOutOption(text: "Mitochondria", isCorrect: true),
+      const LayOutOption(text: "Nucleus", isCorrect: false),
+      const LayOutOption(text: "Chloroplast", isCorrect: false),
+      const LayOutOption(text: "Ribosome", isCorrect: false),
+    ],
+    id: 12,
+    correctAnswer: const LayOutOption(text: "Mitochondria", isCorrect: true),
+  ),
+
+  LayOutQuestion(
+    text: "I am the part of the cell responsible for producing ribosomes. Who am I?",
+    options: [
+      const LayOutOption(text: "Nucleolus", isCorrect: true),
+      const LayOutOption(text: "Nucleus", isCorrect: false),
+      const LayOutOption(text: "Endoplasmic Reticulum", isCorrect: false),
+      const LayOutOption(text: "Golgi Apparatus", isCorrect: false),
+    ],
+    id: 13,
+    correctAnswer: const LayOutOption(text: "Nucleolus", isCorrect: true),
+  ),
+
+  LayOutQuestion(
+    text: "I am a double layer of phospholipids that surrounds and protects the cell. What am I?",
+    options: [
+      const LayOutOption(text: "Cell Membrane", isCorrect: true),
+      const LayOutOption(text: "Cell Wall", isCorrect: false),
+      const LayOutOption(text: "Cytoplasm", isCorrect: false),
+      const LayOutOption(text: "Nucleus", isCorrect: false),
+    ],
+    id: 14,
+    correctAnswer: const LayOutOption(text: "Cell Membrane", isCorrect: true),
+  ),
+
+  LayOutQuestion(
+    text: "I carry genetic information in the form of DNA. What am I?",
+    options: [
+      const LayOutOption(text: "Chromosomes", isCorrect: true),
+      const LayOutOption(text: "Ribosomes", isCorrect: false),
+      const LayOutOption(text: "Golgi Apparatus", isCorrect: false),
+      const LayOutOption(text: "Endoplasmic Reticulum", isCorrect: false),
+    ],
+    id: 15,
+    correctAnswer: const LayOutOption(text: "Chromosomes", isCorrect: true),
   ),
 ];
