@@ -43,87 +43,80 @@ class NavigationsOption {
 final bioQuestionsList = [
   NavigateQuestion(
     text:
-        "I am a widgetbnewnnewnn that manages a stack of child widgets and allows for navigating between them. What am I?",
+        "Which of the following is not a basic class of biological macromolecule?",
     options: [
-      const NavigationsOption(text: "Route", isCorrect: false),
-      const NavigationsOption(text: "Scaffold", isCorrect: false),
-      const NavigationsOption(text: "Navigator", isCorrect: true),
-      const NavigationsOption(text: "PageView", isCorrect: false),
+      const NavigationsOption(text: "Carbohydrates", isCorrect: false),
+      const NavigationsOption(text: "Water", isCorrect: false),
+      const NavigationsOption(text: "Protein", isCorrect: true),
+      const NavigationsOption(text: "Lipids", isCorrect: false),
     ],
     id: 0,
-    correctAnswer: const NavigationsOption(text: "Navigator", isCorrect: true),
+    correctAnswer: const NavigationsOption(text: "Water", isCorrect: true),
   ),
   NavigateQuestion(
     text:
-        " I am a method that remonewnnewnnves the current route from the stack and returns to the previous route. What am I?",
+        "Who is known as “the father of modern genetics?",
     options: [
-      const NavigationsOption(text: "Navigator.push()", isCorrect: false),
-      const NavigationsOption(text: "Navigator.pop()", isCorrect: true),
-      const NavigationsOption(
-          text: "Navigator.removeRoute()", isCorrect: false),
-      const NavigationsOption(text: " Route.dispose()", isCorrect: false),
+      const NavigationsOption(text: "John Quincy Adams", isCorrect: false),
+      const NavigationsOption(text: "James Watson", isCorrect: true),
+      const NavigationsOption(text: "Navigator.removeRoute()", isCorrect: false),
+      const NavigationsOption(text: "Isaac Newton", isCorrect: false),
     ],
     id: 1,
     correctAnswer:
-        const NavigationsOption(text: "Navigator.pop()", isCorrect: true),
+        const NavigationsOption(text: "Gregor Mendel", isCorrect: true),
   ),
   NavigateQuestion(
     text:
-        "I am a widget property thanewnnewnnt must be passed to navigation methods like Navigator.push() to specify the next screen. What am I?",
+        "Which of the following is not a component of RNA?",
     options: [
-      const NavigationsOption(text: "context", isCorrect: true),
-      const NavigationsOption(text: "Scaffold", isCorrect: false),
-      const NavigationsOption(text: "State", isCorrect: false),
-      const NavigationsOption(text: "Build", isCorrect: false),
+      const NavigationsOption(text: "Thymine (T)", isCorrect: true),
+      const NavigationsOption(text: "Adenine (A)", isCorrect: false),
+      const NavigationsOption(text: "Guanine (G)", isCorrect: false),
+      const NavigationsOption(text: "Cytosine (C)", isCorrect: false),
     ],
     id: 2,
-    correctAnswer: const NavigationsOption(text: "context", isCorrect: true),
+    correctAnswer: const NavigationsOption(text: "Thymine (T)", isCorrect: true),
   ),
 
   NavigateQuestion(
     text:
-        " I am the method that closes anewnnewnnll routes in the history stack to pop to the first route. What am I?",
+        "____ is a “technique by which specific proteins can be detected from a mixture of proteins.”",
     options: [
-      const NavigationsOption(text: "Navigator.popUntil()", isCorrect: true),
-      const NavigationsOption(text: " Navigator.reset()", isCorrect: false),
-      const NavigationsOption(text: " Navigator.exitAll()", isCorrect: false),
-      const NavigationsOption(text: "Navigator.clear()", isCorrect: false),
+      const NavigationsOption(text: "Western Blot", isCorrect: true),
+      const NavigationsOption(text: "Southern Blot", isCorrect: false),
+      const NavigationsOption(text: "Eastern Blot", isCorrect: false),
+      const NavigationsOption(text: "Laos", isCorrect: false),
     ],
     id: 3,
     correctAnswer:
-        const NavigationsOption(text: "Navigator.popUntil()", isCorrect: true),
+        const NavigationsOption(text: "Western Blot", isCorrect: true),
   ),
   // other 4
   NavigateQuestion(
     text:
-        " I am a method that adds a namenewnnewnnd route to the top of the navigator stack. Who am I?",
+        "What does PCR stand for?",
     options: [
-      const NavigationsOption(text: "Navigator.navigate()", isCorrect: false),
-      const NavigationsOption(text: " Navigator.openRoute()", isCorrect: false),
-      const NavigationsOption(text: " Navigator.routeTo()", isCorrect: false),
-      const NavigationsOption(text: " Navigator.pushNamed()", isCorrect: true),
+      const NavigationsOption(text: "Polymerase computing routine", isCorrect: false),
+      const NavigationsOption(text: "Polypeptide chain reaction", isCorrect: false),
+      const NavigationsOption(text: "Polypeptide computing routine", isCorrect: false),
+      const NavigationsOption(text: "Polymerase chain reaction", isCorrect: true),
     ],
     id: 4,
-    correctAnswer: const NavigationsOption(
-      text: " Navigator.pushNamed()",
-      isCorrect: true,
+    correctAnswer: const NavigationsOption(text: "Polymerase chain reaction",isCorrect: true,
     ),
   ),
   NavigateQuestion(
     text:
-        " I am a method that replaces thenewnnewnn entire route stack with a single route. Who am I?",
+        "When did the Human Genome Project end?",
     options: [
-      const NavigationsOption(
-          text: " Navigator.pushReplacement()", isCorrect: true),
-      const NavigationsOption(text: "Navigator.reset()", isCorrect: false),
-      const NavigationsOption(
-          text: " Navigator.replaceAll()", isCorrect: false),
-      const NavigationsOption(
-          text: "  Navigator.clearPush()", isCorrect: false),
+      const NavigationsOption(text: "2003", isCorrect: true),
+      const NavigationsOption(text: "2000", isCorrect: false),
+      const NavigationsOption(text: "2001", isCorrect: false),
+      const NavigationsOption(text: "1970", isCorrect: false),
     ],
     id: 5,
-    correctAnswer: const NavigationsOption(
-        text: "Navigator.pushReplacement()", isCorrect: true),
+    correctAnswer: const NavigationsOption(text: "2003", isCorrect: true),
   ),
 
   NavigateQuestion(
@@ -131,8 +124,7 @@ final bioQuestionsList = [
         "I am a method that closes routes newnnewnnuntil a condition is met. Who am I?",
     options: [
       const NavigationsOption(text: "Navigator.exitUntil()", isCorrect: false),
-      const NavigationsOption(
-          text: "Navigator.closeAllUntil(),", isCorrect: false),
+      const NavigationsOption(text: "Navigator.closeAllUntil(),", isCorrect: false),
       const NavigationsOption(text: "Navigator.popWhile()", isCorrect: false),
       const NavigationsOption(text: " Navigator.popUntil()", isCorrect: true),
     ],
