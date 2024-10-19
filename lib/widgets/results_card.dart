@@ -79,7 +79,7 @@ class ResultsCard extends StatelessWidget {
                             ? Column(
                                 children: [
                                   Text(
-                                    "You have Earned this Trophy",
+                                    "Nice job!",
                                     style: Theme.of(context)
                                         .textTheme
                                         .bodyLarge!
@@ -87,17 +87,13 @@ class ResultsCard extends StatelessWidget {
                                           fontWeight: FontWeight.w400,
                                         ),
                                   ),
-                                  Image.asset("assets/bouncy-cup.gif",
-                                      fit: BoxFit.fill,
-                                      height:
-                                          MediaQuery.of(context).size.height *
-                                              0.25),
+                                  
                                 ],
                               )
                             : Column(
                                 children: [
                                   Text(
-                                    "Better luck or skills next time!",
+                                    "Better luck next time!",
                                     style: Theme.of(context)
                                         .textTheme
                                         .bodyLarge!
@@ -105,11 +101,7 @@ class ResultsCard extends StatelessWidget {
                                           fontWeight: FontWeight.w600,
                                         ),
                                   ),
-                                  Image.asset("assets/sad.png",
-                                      fit: BoxFit.fill,
-                                      height:
-                                          MediaQuery.of(context).size.height *
-                                              0.25),
+                                
                                 ],
                               ),
                       ),
